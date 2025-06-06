@@ -1,0 +1,8 @@
+[files]
+extend-exclude = [
+  "themes/blowfish/", # I don't control this
+]
+[default.extend-words]
+# Acronyms
+als = "als"
+lits = "lits"

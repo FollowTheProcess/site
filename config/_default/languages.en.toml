@@ -1,0 +1,14 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "@FollowTheProcess"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+# logo = "img/logo.png"
+# secondaryLogo = "img/secondary-logo.png"
+description = "Tom's Personal Site"
+# copyright = "Copy, _right?_ :thinking_face:"
