@@ -42,8 +42,7 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-        run: |
-          hugo --minify --baseURL https://www.followtheprocess.codes/
+        run: hugo --minify --baseURL https://www.followtheprocess.codes/
 
       - name: Deploy
         run: aws s3 cp public s3://www.followtheprocess.codes --recursive

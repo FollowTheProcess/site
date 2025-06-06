@@ -1,4 +1,4 @@
-# `followtheprocess.codes`
+# `www.followtheprocess.codes`
 
 Repo housing my personal site, built with [hugo] and [blowfish]
 
