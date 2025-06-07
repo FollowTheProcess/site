@@ -16,9 +16,10 @@ defaults:
     shell: bash
 
 jobs:
-  build:
-    name: Build
+  deploy:
+    name: Deploy Site
     runs-on: ubuntu-latest
+    environment: live
     permissions:
       contents: read
       id-token: write
@@ -51,5 +52,5 @@ jobs:
           role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID_PROD }}:role/static-site-upload-role
           aws-region: "eu-west-2"
 
-      - name: Deploy
+      - name: Deploy Site
         run: aws s3 cp public s3://www.followtheprocess.codes --recursive
