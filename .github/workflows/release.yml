@@ -19,7 +19,9 @@ jobs:
   deploy:
     name: Deploy Site
     runs-on: ubuntu-latest
-    environment: live
+    environment:
+      name: live
+      url: https://www.followtheprocess.codes
     permissions:
       contents: read
       id-token: write
