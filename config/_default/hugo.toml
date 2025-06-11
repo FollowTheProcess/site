@@ -12,6 +12,9 @@ buildFuture = false
 # googleAnalytics = "G-XXXXXXXXX"
 enableEmoji = true
 
+[permalinks.page]
+code = ":contentbasename"
+
 [pagination]
 pagerSize = 10
 
@@ -30,7 +33,7 @@ filename = 'sitemap.xml'
 priority = 0.5
 
 [outputs]
-home = [ "HTML", "RSS", "JSON" ]
+home = ["HTML", "RSS", "JSON"]
 
 [related]
 threshold = 0
