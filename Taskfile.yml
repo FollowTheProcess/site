@@ -3,7 +3,8 @@
 version: "3"
 
 vars:
-  GREETING: Hello, World!
+  DEFAULT_THEME: jsonresume-theme-kendall
+  HTML: ./static/cv.html
 
 tasks:
   default:
@@ -11,13 +12,21 @@ tasks:
       - task --list
     silent: true
 
+  dev:
+    desc: Set up the dev environment
+    cmds:
+      - bun install
+
   build:
     desc: Build the site locally
     cmds:
+      - bun x resumed render --theme {{.DEFAULT_THEME}} --output {{.HTML}}
       - hugo build --buildDrafts
 
   serve:
     desc: Build and serve locally
+    deps:
+      - build
     cmds:
       - open "http://localhost:1313/"
       - hugo server --buildDrafts
@@ -28,7 +37,8 @@ tasks:
       - sh: command -v typos
         msg: typos CLI not installed, see https://github.com/crate-ci/typos?tab=readme-ov-file#install
     cmds:
-      - typos
+      - typos --config .typos.toml
+      - bun x resumed validate
 
   update:
     desc: Update theme

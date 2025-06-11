@@ -1,0 +1,21 @@
+{
+  "name": "cv",
+  "version": "0.1.0",
+  "description": "My CV, built with jsonresume",
+  "homepage": "https://github.com/rbardini/resumed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FollowTheProcess/site.git"
+  },
+  "author": {
+    "name": "Tom Fleet",
+    "email": "me@followtheprocess.codes",
+    "url": "https://followtheprocess.codes/"
+  },
+  "dependencies": {
+    "jsonresume-theme-kendall": "^0.2.0"
+  },
+  "devDependencies": {
+    "resumed": "^6.0.0"
+  }
+}
