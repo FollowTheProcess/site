@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "email": "tomfleet2018@gmail.com",
+    "email": "me@followtheprocess.codes",
     "image": "https://avatars.githubusercontent.com/u/62767721?s=400&u=4edc077869faed26ec5bef25fafa6e6b2e669be8&v=4",
     "label": "Senior Software Engineer",
     "location": {
@@ -22,7 +22,7 @@
       }
     ],
     "summary": "Experienced Software Engineer and Cloud Engineer with a background in aerospace engineering and materials science. Expertise and experience in Go, Python, AWS Serverless, REST APIs and microservices/distributed systems. I take pride in producing reliable, clean, robust and well-documented software and architectures. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. I enjoy learning new things and have a lot of side projects! Everything from command line tools to mini programming languages to build systems, parsers and reusable libraries.",
-    "url": "https://followtheprocess.github.io"
+    "url": "https://followtheprocess.codes"
   },
   "certificates": [
     {
