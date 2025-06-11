@@ -35,6 +35,8 @@ jobs:
 
       - name: Spell Check
         uses: crate-ci/typos@v1.33.1
+        with:
+          config: .typos.toml
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
