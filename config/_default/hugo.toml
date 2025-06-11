@@ -12,9 +12,6 @@ buildFuture = false
 # googleAnalytics = "G-XXXXXXXXX"
 enableEmoji = true
 
-[permalinks.page]
-code = ":contentbasename"
-
 [pagination]
 pagerSize = 10
 
