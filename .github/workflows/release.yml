@@ -55,4 +55,4 @@ jobs:
           aws-region: "eu-west-2"
 
       - name: Deploy Site
-        run: aws s3 cp public s3://www.followtheprocess.codes --recursive
+        run: aws s3 sync public s3://www.followtheprocess.codes --delete
