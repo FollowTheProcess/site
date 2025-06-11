@@ -22,7 +22,7 @@ weight = 20
 
 [[main]]
 name = "CV"
-url = "https://followtheprocess.github.io/cv/"
+url = "/cv.html"
 weight = 30
 
 #[[main]]

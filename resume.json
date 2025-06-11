@@ -1,0 +1,232 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "email": "me@followtheprocess.codes",
+    "image": "https://avatars.githubusercontent.com/u/62767721?s=400&u=4edc077869faed26ec5bef25fafa6e6b2e669be8&v=4",
+    "label": "Senior Software Engineer",
+    "location": {
+      "city": "Cheshire",
+      "countryCode": "UK"
+    },
+    "name": "Tom Fleet",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "url": "https://github.com/FollowTheProcess",
+        "username": "FollowTheProcess"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tom-fleet-03b03280/",
+        "username": "Tom Fleet"
+      }
+    ],
+    "summary": "Experienced Software Engineer and Cloud Engineer with a background in aerospace engineering and materials science. Expertise and experience in Go, Python, AWS Serverless, REST APIs and microservices/distributed systems. I take pride in producing reliable, clean, robust and well-documented software and architectures. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. I enjoy learning new things and have a lot of side projects! Everything from command line tools to mini programming languages to build systems, parsers and reusable libraries.",
+    "url": "https://followtheprocess.codes"
+  },
+  "certificates": [
+    {
+      "issuer": "AWS",
+      "name": "AWS Cloud Practitioner"
+    },
+    {
+      "issuer": "Microsoft",
+      "name": "Azure Fundamentals"
+    }
+  ],
+  "education": [
+    {
+      "area": "Materials Science",
+      "endDate": "2019-09-01",
+      "institution": "Cranfield University",
+      "startDate": "2020-09-01",
+      "studyType": "MSc",
+      "url": "https://www.cranfield.ac.uk"
+    },
+    {
+      "area": "Aerospace Engineering",
+      "endDate": "2013-09-01",
+      "institution": "Brunel University",
+      "startDate": "2017-05-01",
+      "studyType": "BEng (hons)",
+      "url": "https://www.brunel.ac.uk"
+    }
+  ],
+  "interests": [
+    {
+      "keywords": [
+        "Contributing",
+        "Maintenance",
+        "Collaboration"
+      ],
+      "name": "Open Source"
+    },
+    {
+      "keywords": [
+        "Astronomy",
+        "Physics",
+        "Materials Science",
+        "Spaceflight",
+        "Robotics"
+      ],
+      "name": "Science & Technology"
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Native speaker",
+      "language": "English"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "jsonresume-theme-kendall",
+    "version": "v1.0.0"
+  },
+  "publications": [
+    {
+      "name": "Modelling of the Overcasting Reinforcement Process using the LS-DYNA ® ICFD Solver",
+      "publisher": "12th European LS-Dyna Conference 2019",
+      "releaseDate": "2019-10-01",
+      "summary": "Innovative use of CFD models combined with liquid metal crystallisation and genetic algorithms in order to predict liquid-solid aluminium bonding to a composite insert.",
+      "url": "https://www.dynalook.com/conferences/12th-european-ls-dyna-conference-2019/fluid-structure-interaction/burt_grm_consulting.pdf/view"
+    },
+    {
+      "name": "A Machine Learning Approach to Model Interdependencies between Dynamic Response and Crack Propagation",
+      "publisher": "MDPI Sensors",
+      "releaseDate": "2020-11-30",
+      "summary": "Application of machine learning techniques to thermo-mechanical fatigue damage prediction in aerospace materials.",
+      "url": "https://www.mdpi.com/1424-8220/20/23/6847"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Python",
+        "Go",
+        "Rust"
+      ],
+      "name": "Languages"
+    },
+    {
+      "keywords": [
+        "CI/CD",
+        "GitOps",
+        "GitHub Actions",
+        "Docker/Compose",
+        "Terraform",
+        "AWS SAM",
+        "CloudFormation"
+      ],
+      "name": "DevOps"
+    },
+    {
+      "keywords": [
+        "Lambda",
+        "DynamoDB",
+        "API Gateway",
+        "Step Functions",
+        "SQS/SNS",
+        "EventBridge",
+        "CodePipeline",
+        "SAR",
+        "Pinpoint",
+        "Kinesis/Firehose",
+        "AFT"
+      ],
+      "name": "AWS"
+    },
+    {
+      "keywords": [
+        "Testing/TDD",
+        "Packaging/Deployment",
+        "Documentation",
+        "Git/GitHub",
+        "Shell/Command Line",
+        "REST/GraphQL",
+        "Agile"
+      ],
+      "name": "General"
+    }
+  ],
+  "work": [
+    {
+      "description": "Digital-first UK Bank",
+      "highlights": [
+        "Created and rolled out a suite of 'best practice baked in' copier templates for bootstrapping new service development in the engineering teams. These rapidly became the standard across the organisation and I estimate saved hundreds of engineering hours per year.",
+        "Designed and led the implementation across the organisation of a private PyPI repository in AWS CodeArtifact acting as a cache pull-through, decoupling the estate from public infrastructure, improving the security posture and deployment reliability. Also implemented a preemptive vulnerability scanning process on this CodeArtifact repository.",
+        "Rolled out a fully automated and safe solution for teams to self-provision GitHub repositories using GitHub actions and the templates mentioned above with compliance, security and quality standards managed by automated org-wide rulesets deployed with Terraform.",
+        "Leveraged AFT (Account Factory for Terraform) to create an automatic, standards-compliant system for provisioning new AWS accounts, including a suite of composable customisations to tailor account infrastructure as needed.",
+        "Developed a number of reusable CI/CD pipelines and GitHub actions, standardising common actions across the organisation such as continuous integration in Python repositories, and the Terraform plan, review and apply lifecycle.",
+        "Held workshops and wrote user guides to help upskill the engineering teams in infrastructure and DevOps, particularly debugging in AWS and using Terraform for IaC.",
+        "Led the introduction of infrastructure/deployment testing to the Cloud Platform team, improving the quality and reliability of the shared components we developed."
+      ],
+      "location": "Wrexham, UK",
+      "name": "Chetwood Financial Ltd.",
+      "position": "Senior Cloud Engineer",
+      "startDate": "2024-04-01",
+      "summary": "Senior Cloud Engineer in the platform team, designed, implemented and managed crucial parts of the AWS estate as well as other shared infrastructure/services in a more DevOps and DevEx focussed role.",
+      "url": "https://chetwood.co"
+    },
+    {
+      "description": "Digital-first UK Bank",
+      "endDate": "2024-04-01",
+      "highlights": [
+        "Led a newly created cross-functional team building an entirely new easy access savings product, using a new core banking platform.",
+        "Championed and introduced the use of static typing in python code as well as significantly stricter linting via ruff, leading to a measurable reduction in production errors across a number of core services, and an improved developer experience with faster feedback.",
+        "Led a serverless workshop for developers new to the stack, upskilling them in AWS CloudFormation, SAM, Lambdas, API Gateway, DynamoDB and event driven architecture.",
+        "Participated in the interviewing and recruitment of new engineers up to staff level.",
+        "Mentored new team members and helped to foster an attitude of engineering excellence and best practice within the team and across the engineering department."
+      ],
+      "location": "Wrexham, UK",
+      "name": "Chetwood Financial Ltd.",
+      "position": "Tech Lead",
+      "startDate": "2023-02-22",
+      "summary": "Promoted to technical lead of a cross-functional pod; setting a technical & strategic direction, designing higher level architectures, acting as a the organisation's SME for our area, and leading a team of several developers and QAs.",
+      "url": "https://chetwood.co"
+    },
+    {
+      "description": "Digital-first UK Bank",
+      "endDate": "2023-02-22",
+      "highlights": [
+        "Key member of a high performing team responsible for a piece of critical infrastructure",
+        "Coordinated and led the release of a novel dynamic pricing mechanism with a turn around time of just 9 days",
+        "Managed regular releases of critical infrastructure including 3rd party integration layers and the in-house lending decision engine"
+      ],
+      "location": "Wrexham, UK",
+      "name": "Chetwood Financial Ltd.",
+      "position": "Software Engineer",
+      "startDate": "2022-04-11",
+      "summary": "Python engineer working in a cross-functional pod focused on the development and maintenance of the custom built, in-house lending decision engine.",
+      "url": "https://chetwood.co"
+    },
+    {
+      "description": "Cloud migration SaaS provider",
+      "endDate": "2022-04-11",
+      "highlights": [
+        "Development and deployment of text classification microservices via Azure Functions and Openfaas. Also created a robust and reusable “cookiecutter” template for such services.",
+        "Maintaining a large Django REST API, addressing bugs, implementing new API endpoints to expose to a react frontend, refactoring as necessary."
+      ],
+      "location": "Manchester, UK",
+      "name": "Junkshon",
+      "position": "Python Developer",
+      "startDate": "2021-05-01",
+      "summary": "Backend Python/Django developer split between backend development/maintenance and the implementation of machine learning feature sets on a proprietary web-based platform designed to facilitate cloud migrations.",
+      "url": "https://www.junkshon.com"
+    },
+    {
+      "description": "Career in Aerospace Engineering and Materials Science, details omitted for brevity.",
+      "endDate": "2021-05-01",
+      "highlights": [
+        "Coordinated and led a number of research projects in advanced metal matrix composite technology, characterisation and manufacturing techniques.",
+        "Published 2 research papers combining advanced computational techniques and materials science.",
+        "Mixture of production support and R&D activities in polymer composite materials to support production of the Airbus A350-900 and -1000"
+      ],
+      "location": "Various",
+      "name": "Previous Life",
+      "startDate": "2015-06-01",
+      "summary": "Engineer/scientist focused on advanced materials science, polymer and metallic composites applied to the aerospace industry both in large multinational corporations and smaller research labs."
+    }
+  ]
+}
