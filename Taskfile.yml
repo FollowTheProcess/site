@@ -51,8 +51,3 @@ tasks:
     desc: Create a new post
     cmds:
       - hugo new --kind post content/posts/{{.CLI_ARGS}}/index.md
-
-  project:
-    desc: Create a new project
-    cmds:
-      - hugo new --kind code content/code/{{.CLI_ARGS}}.md
