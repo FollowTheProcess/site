@@ -20,8 +20,9 @@ tasks:
   build:
     desc: Build the site locally
     cmds:
+      - rm -rf public
       - bun x resumed render --theme {{.DEFAULT_THEME}} --output {{.HTML}}
-      - hugo build --buildDrafts
+      - hugo build --buildDrafts --minify
 
   serve:
     desc: Build and serve locally
