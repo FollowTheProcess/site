@@ -57,4 +57,4 @@ jobs:
           aws-region: "eu-west-2"
 
       - name: Deploy Site
-        run: aws s3 sync public s3://www.followtheprocess.codes --delete
+        run: aws s3 sync public s3://www.followtheprocess.codes --delete --sse AES256
