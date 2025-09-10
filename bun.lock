@@ -4,10 +4,10 @@
     "": {
       "name": "cv",
       "dependencies": {
-        "jsonresume-theme-kendall": "^0.2.0",
+        "jsonresume-theme-kendall": "latest",
       },
       "devDependencies": {
-        "resumed": "^6.0.0",
+        "resumed": "latest",
       },
     },
   },
