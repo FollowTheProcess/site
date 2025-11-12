@@ -6,7 +6,7 @@ showHero: true
 heroStyle: background
 ---
 
-Hello 👋🏻 I'm Tom, a Senior Software Engineer and DevOps/Cloud Engineer currently working in the UK finance sector. My day to day is Python, AWS Serverless and Terraform.
+Hello 👋🏻 I'm Tom, a Senior Software Engineer and Platform Engineer. My day to day is Go, Terraform, CloudFormation and YAML.
 
 I'm basically always doing side projects (often too many 🙃) mostly in Go which is probably my favourite language, everything from parsers to build systems to libraries/frameworks to useless git extensions.
 

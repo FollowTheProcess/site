@@ -21,8 +21,8 @@
         "username": "Tom Fleet"
       }
     ],
-    "summary": "Experienced Software Engineer and Cloud Engineer with a background in aerospace engineering and materials science. Expertise and experience in Go, Python, AWS Serverless, REST APIs and microservices/distributed systems. I take pride in producing reliable, clean, robust and well-documented software and architectures. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. I enjoy learning new things and have a lot of side projects! Everything from command line tools to mini programming languages to build systems, parsers and reusable libraries.",
-    "url": "https://followtheprocess.codes"
+    "summary": "Experienced Software and Platform Engineer with a background in aerospace engineering and materials science. Strong expertise and experience in microservice architectures and supporting infrastructure. I take pride in producing reliable, clean, robust and well-documented software and architectures. I also enjoy mentoring other engineers and sharing knowledge/experience in areas where I'm able to do so. I enjoy learning new things and have a lot of side projects! Everything from command line tools to mini programming languages to build systems, parsers and reusable libraries.",
+    "url": "https://www.followtheprocess.codes"
   },
   "certificates": [
     {
@@ -152,6 +152,15 @@
   ],
   "work": [
     {
+      "description": "Unified Commerce Platform for Global Brands",
+      "location": "Remote",
+      "name": "NewStore Ltd.",
+      "position": "Senior Software Engineer",
+      "startDate": "2025-08-14",
+      "summary": "Senior Software Engineer in the Platform & DevEx team. Working in an XP team building out an internal developer platform for stream-aligned teams.",
+      "url": "https://www.newstore.com"
+    },
+    {
       "description": "Digital-first UK Bank",
       "highlights": [
         "Created and rolled out a suite of 'best practice baked in' copier templates for bootstrapping new service development in the engineering teams. These rapidly became the standard across the organisation and I estimate saved hundreds of engineering hours per year.",
@@ -162,10 +171,11 @@
         "Held workshops and wrote user guides to help upskill the engineering teams in infrastructure and DevOps, particularly debugging in AWS and using Terraform for IaC.",
         "Led the introduction of infrastructure/deployment testing to the Cloud Platform team, improving the quality and reliability of the shared components we developed."
       ],
-      "location": "Wrexham, UK",
+      "location": "Wrexham, UK/Remote",
       "name": "Chetwood Financial Ltd.",
       "position": "Senior Cloud Engineer",
       "startDate": "2024-04-01",
+      "endDate": "2025-08-13",
       "summary": "Senior Cloud Engineer in the platform team, designed, implemented and managed crucial parts of the AWS estate as well as other shared infrastructure/services in a more DevOps and DevEx focussed role.",
       "url": "https://chetwood.co"
     },
@@ -179,7 +189,7 @@
         "Participated in the interviewing and recruitment of new engineers up to staff level.",
         "Mentored new team members and helped to foster an attitude of engineering excellence and best practice within the team and across the engineering department."
       ],
-      "location": "Wrexham, UK",
+      "location": "Wrexham, UK/Remote",
       "name": "Chetwood Financial Ltd.",
       "position": "Tech Lead",
       "startDate": "2023-02-22",
@@ -194,7 +204,7 @@
         "Coordinated and led the release of a novel dynamic pricing mechanism with a turn around time of just 9 days",
         "Managed regular releases of critical infrastructure including 3rd party integration layers and the in-house lending decision engine"
       ],
-      "location": "Wrexham, UK",
+      "location": "Wrexham, UK/Remote",
       "name": "Chetwood Financial Ltd.",
       "position": "Software Engineer",
       "startDate": "2022-04-11",

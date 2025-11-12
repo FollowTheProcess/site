@@ -1,5 +1,6 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "cv",
@@ -68,7 +69,7 @@
 
     "require-main-filename": ["require-main-filename@2.0.0", "", {}, "sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg=="],
 
-    "resumed": ["resumed@6.0.0", "", { "dependencies": { "@jsonresume/schema": "^1.0.0", "sade": "^1.7.0", "strip-json-comments": "^5.0.0" }, "peerDependencies": { "puppeteer": "^24.0.0" }, "optionalPeers": ["puppeteer"], "bin": { "resumed": "bin/resumed.js" } }, "sha512-Flyyl5f87vuHs7lbwEPHQy+1kKZhEcdghdRWieuXSVFRmpNKCtwGDXBP1wtARrya44wV3tHODpFx3x7xis0/JA=="],
+    "resumed": ["resumed@6.1.0", "", { "dependencies": { "@jsonresume/schema": "^1.0.0", "sade": "^1.7.0", "strip-json-comments": "^5.0.0" }, "peerDependencies": { "puppeteer": "^24.0.0" }, "optionalPeers": ["puppeteer"], "bin": { "resumed": "bin/resumed.js" } }, "sha512-VZbgG+auJZkpSKIzeDibu1q9w/XgMNNzGC8NLU9P3fH0YjiY4V2hq0knFemoBer1xR2wW8B3SagVkhHTpcBI7Q=="],
 
     "sade": ["sade@1.8.1", "", { "dependencies": { "mri": "^1.1.0" } }, "sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A=="],
 
