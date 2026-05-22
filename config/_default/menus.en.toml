@@ -22,12 +22,14 @@ weight = 20
 
 [[main]]
 name = "CV"
-url = "/cv.html"
+# Note: 404's when locally built because the content is not in here
+# it's in FollowTheProcess/cv
+url = "/cv/"
 weight = 30
 
 [[main]]
 name = "Recipes"
-# Note: 404's when locally built because the content is not in here
+# Likewise, content is in FollowTheProcess/recipes
 url = "/recipes/"
 weight = 40
 

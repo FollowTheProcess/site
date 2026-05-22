@@ -1,23 +1,10 @@
 [tools]
 hugo-extended = "latest"
-bun = "latest"
 typos = "latest"
-
-[vars]
-default_theme = "jsonresume-theme-kendall"
-html = "./static/cv.html"
-
-[tasks.dev]
-description = "Set up the dev environment"
-run = "bun install"
 
 [tasks.build]
 description = "Build the site locally"
-run = [
-  "rm -rf public",
-  "bun x resumed render --theme {{ vars.default_theme }} --output {{ vars.html }}",
-  "hugo build --buildDrafts --minify",
-]
+run = "hugo build --buildDrafts --minify"
 
 [tasks.serve]
 description = "Build and serve locally"
@@ -29,10 +16,7 @@ run = [
 
 [tasks.check]
 description = "Check content for typos and validate the resume"
-run = [
-  "typos --config .typos.toml",
-  "bun x resumed validate",
-]
+run = "typos --config .typos.toml"
 
 [tasks.update]
 description = "Update theme submodule"

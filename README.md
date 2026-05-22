@@ -1,8 +1,6 @@
 # `www.followtheprocess.codes`
 
-Repo housing my personal site, built with [hugo] and [blowfish]. It also contains my CV built with [JSON Resume] and [resumed] which is uploaded as a static html to the hugo site.
+Repo housing my personal site, built with [hugo] and [blowfish]. Hosted with AWS S3 and CloudFront at [www.followtheprocess.code](https://www.followtheprocess.codes)
 
-[JSON Resume]: https://jsonresume.org
-[resumed]: https://github.com/rbardini/resumed
 [hugo]: https://gohugo.io
 [blowfish]: https://blowfish.page
