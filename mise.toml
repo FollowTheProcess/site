@@ -1,0 +1,47 @@
+[tools]
+hugo-extended = "latest"
+bun = "latest"
+typos = "latest"
+
+[vars]
+default_theme = "jsonresume-theme-kendall"
+html = "./static/cv.html"
+
+[tasks.dev]
+description = "Set up the dev environment"
+run = "bun install"
+
+[tasks.build]
+description = "Build the site locally"
+run = [
+  "rm -rf public",
+  "bun x resumed render --theme {{ vars.default_theme }} --output {{ vars.html }}",
+  "hugo build --buildDrafts --minify",
+]
+
+[tasks.serve]
+description = "Build and serve locally"
+depends = ["build"]
+run = [
+  'open "http://localhost:1313/"',
+  "hugo server --buildDrafts",
+]
+
+[tasks.check]
+description = "Check content for typos and validate the resume"
+run = [
+  "typos --config .typos.toml",
+  "bun x resumed validate",
+]
+
+[tasks.update]
+description = "Update theme submodule"
+run = [
+  "git submodule update --remote --merge",
+  "git submodule foreach git pull origin main",
+]
+
+[tasks.post]
+description = "Create a new post"
+usage = 'arg "<name>" help="Post name (used as directory under content/posts/)"'
+run = 'hugo new --kind post "content/posts/$usage_name/index.md"'

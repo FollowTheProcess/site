@@ -58,3 +58,13 @@ jobs:
 
       - name: Deploy Site
         run: aws s3 sync public s3://www.followtheprocess.codes --delete --sse AES256
+
+      - name: Invalidate CloudFront Cache
+        run: |-
+          dist_id=$(aws ssm get-parameter \
+            --name /apps/www.followtheprocess.codes/cloudfront/distribution-id \
+            --query 'Parameter.Value' \
+            --output text)
+          aws cloudfront create-invalidation \
+            --distribution-id "$dist_id" \
+            --paths '/*'

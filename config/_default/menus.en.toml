@@ -1,7 +1,7 @@
 # -- Main Menu --
 # The main menu is displayed in the header at the top of the page.
 # Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
+#
 # The simplest menu configuration is to provide:
 #   name = The name to be displayed for this menu link
 #   pageRef = The identifier of the page or section to link to
@@ -25,34 +25,40 @@ name = "CV"
 url = "/cv.html"
 weight = 30
 
-#[[main]]
+[[main]]
+name = "Recipes"
+# Note: 404's when locally built because the content is not in here
+url = "/recipes/"
+weight = 40
+
+# [[main]]
 #  name = "Parent"
 #  weight = 20
 
-#[[main]]
+# [[main]]
 #  name = "example sub-menu 1"
 #  parent = "Parent"
 #  pageRef = "posts"
 #  weight = 20
 
-#[[main]]
+# [[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"
 #  pageRef = "posts"
 #  weight = 20
 
-#[[subnavigation]]
+# [[subnavigation]]
 #  name = "An interesting topic"
 #  pageRef = "tags/interesting-topic"
 #  weight = 10
 
-#[[subnavigation]]
+# [[subnavigation]]
 #  name = "My Awesome Category"
 #  pre = "github"
 #  pageRef = "categories/awesome"
 #  weight = 20
 
-#[[main]]
+# [[main]]
 #  name = "Categories"
 #  pageRef = "categories"
 #  weight = 20
@@ -62,11 +68,9 @@ weight = 30
 # pageRef = "tags"
 # weight = 40
 
-
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
-
 
 # [[footer]]
 #   name = "Tags"
