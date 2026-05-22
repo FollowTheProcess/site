@@ -39,7 +39,7 @@ jobs:
           config: .typos.toml
 
       - name: Setup mise
-        uses: jdx/mise-action@v3
+        uses: jdx/mise-action@v4
 
       - name: Generate Chroma CSS
         run: mise run chroma
